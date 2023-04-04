@@ -17,10 +17,10 @@
 	</head>
 
 
-	<nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark" aria-label="Nav Bar">
+	<nav class="navbar navbar-expand-sm fixed-top navbar-dark" aria-label="Nav Bar">
 		<div class="container-fluid">
 
-				<a class="navbar-brand abs" href="index.html">
+				<a class="navbar-brand abs" href="#">
 					<img id="logo" src="img/face-light.png" width="35" height="35" class="d-inline-block align-top" alt="">
 				</a>
 
@@ -30,38 +30,39 @@
 				
 				<div class="navbar-collapse collapse" id="collapseNavbar">
 						<ul class="navbar-nav ms-auto">
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#">PROJECTS</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link disabled" href="#">EDUCATION</a>
-							</li>
-							<li class="nav-item dropdown dropstart">
+							<li class="nav-item dropdown">
 								<a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">LINKS</a>
-								<ul class="dropdown-menu">
+								<ul class="dropdown-menu dropdown-menu-dark bg-transparent rounded-0">
 									<li><a class="dropdown-item" href="https://github.com/murajshrestha">GITHUB</a></li>
 									<li><a class="dropdown-item" href="https://www.linkedin.com/in/muraj-shrestha">LINKEDIN</a></li>
 								</ul>
 							</li>
-							
 							<li class="nav-item">
-								<a class="nav-link active" href="#">ABOUT</a>
+								<a class="nav-link" href="#projects">PROJECTS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#education">EDUCATION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">ABOUT</a>
 							</li>
 						</ul>
 				</div>
 
 		</div>
 	</nav>
-
-	<body style="background-color: #212529;">
-		<div class="container-sm p-5 bg-dark text-white">
-			<div class="header">
-				<span class="top">Hello, I am</span><br>
-				<span class="middle">MURAJ SHRESTHA</span><br>
-				<span class="bottom">???</span>
-			</div>
+	<div class="home-page" id="home"></div>
+	<body class="bg-dark">
+		<div class="header">
+			<span class="top">Hello, I am</span><br>
+			<span class="middle">MURAJ SHRESTHA</span><br>
+			<span class="bottom">Test Words Here</span>
 		</div>
-
 	</body>
+	<div class="projects-page" id="projects"></div>
+	<div class="education-page" id="education"></div>
+	<div class="about-page" id="about"></div>
+
+	
 
 </html> 

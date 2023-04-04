@@ -9,13 +9,24 @@ body, html {
 
 body { margin:0; }
 
-.main {
+.home-page {
     background-color:#212529;
     height: 100%; 
-    background-attachment: fixed;
-    background-position: 0 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.education-page {
+    background-color:#748CAB;
+    height: 100%; 
+}
+
+.projects-page {
+    background-color: #9D695A;
+    height: 100%; 
+}
+
+.about-page {
+    background-color: #04724D;
+    height: 100%; 
 }
 
 .header {
