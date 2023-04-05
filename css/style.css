@@ -20,23 +20,11 @@ body { margin:0; }
     color: #ffffff;
 }
 
-.background {
-    background:linear-gradient(
-          rgba(0, 0, 0, 0.5), 
-          rgba(0, 0, 0, 0.5)
-        ), url('../img/background/1.jpg');
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: 0 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.background2 {
+.home-background {
     background:linear-gradient(
           rgba(33, 37, 41, 0.6), 
           rgba(33, 37, 41, 0.6)
-        ), url('../img/background/1.jpg');
+        ), url('../img/background/back.jpg');
     height: 100%; 
     background-attachment: fixed;
     background-position: 0 0px;
@@ -44,11 +32,11 @@ body { margin:0; }
     background-size: cover;
 }
 
-.background3 {
+.projects-background {
     background:linear-gradient(
-          rgba(0, 0, 0, 0.6), 
-          rgba(0, 0, 0, 0.6)
-        ), url('../img/background/1.jpg');
+          rgba(93, 169, 233, 0.6), 
+          rgba(93, 169, 233, 0.6)
+        ), url('../img/background/back.jpg');
     height: 100%; 
     background-attachment: fixed;
     background-position: 0 0px;
@@ -56,21 +44,51 @@ body { margin:0; }
     background-size: cover;
 }
 
-.home-page {
-    background-color:#212529;
+.skills-background {
+    background:linear-gradient(
+        rgba(61, 52, 139, 0.6), 
+        rgba(61, 52, 139, 0.6)
+        ), url('../img/background/back.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.projects-page {
-    background-color:#5DA9E9;
+.education-background {
+    background:linear-gradient(
+        rgba(157, 105, 90, 0.6), 
+        rgba(157, 105, 90, 0.6)
+      ), url('../img/background/back.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.education-page {
-    background-color: #9D695A;
+.about-background {
+    background:linear-gradient(
+        rgba(4, 114, 77, 0.6), 
+        rgba(4, 114, 77, 0.6)
+        ), url('../img/background/back.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.about-page {
-    background-color: #04724D;
-}
+.home-page {background-color:#212529;}
+
+.education-page {background-color: #9d695a;}
+
+.skills-page {background-color:#3d348b;}
+
+.projects-page {background-color:#5da9e9;}
+
+.about-page {background-color: #04724d;}
 
 .header {
 	text-align: center;
@@ -84,12 +102,14 @@ body { margin:0; }
 .title{
 	font-size: 5.2vmax;
     color: #ffffff;
-    font-family: 'Ailerons';
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    /* text-align: center; */
 }
 
 .hometitle{
     /* color: #93A3BC; */
+    font-family: 'Ailerons';
     color: white
 }
 
@@ -107,5 +127,17 @@ body { margin:0; }
 	color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    font-style: italic;
+}
+
+.light{
+	font-size: 1.6vmax;
+	color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    /* font-style: italic; */
+}
+
+.italic{
     font-style: italic;
 }
