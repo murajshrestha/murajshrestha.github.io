@@ -104,40 +104,15 @@ body { margin:0; }
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    /* text-align: center; */
-}
-
-.hometitle{
+    text-align: center;
     /* color: #93A3BC; */
     font-family: 'Ailerons';
-    color: white
 }
 
 .subtitle{
 	font-size: 1.8vmax;
 	color: #bbbbbb;
-    font-family: 'Roboto', sans-serif !important;; 
+    font-family: 'Roboto', sans-serif; 
     font-weight: 100;
-    font-style: italic;
-    
-}
-
-.bold{
-	font-size: 2vmax;
-	color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-style: italic;
-}
-
-.light{
-	font-size: 1.6vmax;
-	color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    /* font-style: italic; */
-}
-
-.italic{
-    font-style: italic;
+    font-style: italic; 
 }
