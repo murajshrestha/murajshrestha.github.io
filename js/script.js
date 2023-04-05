@@ -15,12 +15,11 @@
     window.onload = init;
   
     function init(){
-        const navLinks = document.querySelectorAll('.nav-item')
         const menuToggle = document.getElementById('collapseNavbar')
-        
         const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
-        navLinks.forEach((l) => {
-            l.addEventListener('click', () => { bsCollapse.toggle() })
+
+        menuToggle.addEventListener('show.bs.collapse', function () {
+            window.addEventListener('click', () => { bsCollapse.hide() })     
         })
     }
   
